@@ -1,0 +1,24 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.6)
+    em-http-request (1.0.0)
+      addressable (>= 2.2.3)
+      em-socksify
+      eventmachine (>= 1.0.0.beta.3)
+      http_parser.rb (>= 0.5.2)
+    em-socksify (0.1.0)
+      eventmachine
+    eventmachine (1.0.0.beta.4)
+    http_parser.rb (0.5.2)
+    scamp (0.1.0)
+      em-http-request (~> 1.0.0.beta.4)
+      eventmachine (~> 1.0.0.beta.4)
+      yajl-ruby (~> 0.8.3)
+    yajl-ruby (0.8.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  scamp
